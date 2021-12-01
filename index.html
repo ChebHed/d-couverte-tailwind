@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Tailwind CSS</title>
+</head>
+
+<body class="font-lora">
+    <h1 class="mx-auto text-center text-gray-500 bg-blue-200w-enorme">TailwindCSS</h1>
+    <div class="bg-green-300 container mx-auto pb-20">Conteneur</div>
+
+
+
+    <div class="flex">
+        <img class="block w-72 h-72 object-cover" src="https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixid=MnwxMjA
+        3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib" alt="Image" />
+        <img class="block w-72 h-72 object-contain" src="https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixid=MnwxMjA
+        3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib" alt="Image" />
+        <img class="block w-72 h-72" src="https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixid=MnwxMjA
+        3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib" alt="Image" />
+    </div>
+
+    <div class="block w-36 h-36 bg-indigo-500 absolute top-4 right-2">
+        Position
+    </div>
+
+    <div class="flex justify-center">
+        <div class="m-8 bg-green-300 w-24 h-24">
+            <div class="-m-4 border-2 border-green-800
+                bg-green-600 w-16 h-16">
+                Margin négative
+            </div>
+        </div>
+    </div>
+
+    <p class="bg-green-500 text-white m-5 p-2">Margin 5rem</p>
+    <span class="text-2xl">Texte</span>
+
+
+    <ul class="p-5 list-disc list-outside">
+        <li>Item 1</li>
+        <li>Item 2 </li>
+        <li>Item 3</li>
+    </ul>
+
+
+    <div class="grid grid-cols-3 gap-2 bg-gray-100 h-114 p-1">
+        <div class="w-full bg-green-300">1</div>
+        <div class="w-full bg-green-300">2</div>
+        <div class="w-full bg-green-300">3</div>
+        <div class="w-full bg-green-300">4</div>
+        <div class="w-full bg-green-300">5</div>
+        <div class="w-full bg-green-300">6</div>
+        <div class="w-full bg-green-300">7</div>
+        <div class="w-full bg-green-300">8</div>
+        <div class="w-full bg-green-300">9</div>
+    </div>
+
+    <p class="sm:text-red-500">Text small</p>
+
+    <div class="w-20 h-20 bg-green-500 active:bg-blue-500">Active</div>
+    <div class="text-4xl txt-gray-50 m-5 pt-12 pb-8 px-5 h-50 w-80 bg-green-500
+                        transition hover:bg-blue-500">txt
+    </div>
+
+
+    <div class="w-2/5 h-50 bg-blue-400 transition-colors hover:bg-blue-600
+                        duration-500">
+        box
+    </div>
+    <div>
+
+        <img class="h-48 shadow-xl rounded-lg transition filter grayscale hover:grayscale-0" src="https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixid=MnwxMjA
+                            3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=10
+                            00&h=1000&q=80" alt="" />
+    </div>
+
+    <div class="text-4xl txt-gray-50 m-5 pt-12 pb-8 px-5 h-50 w-80 bg-green-500
+                            transition-opacity duration-3000 hover:opacity-0">txt
+    </div>
+
+    <div class="text-4xl txt-gray-50 m-5 pt-12 pb-8 px-5 h-50 w-80 bg-green-500
+                            transition-all duration-1000 hover:bg-blue-500">txt
+    </div>
+
+    <div class="w-80 h-80 bg-yellow-400 animate-ping"></div>
+
+    <div class="w-80 h-80 bg-yellow-400 animate-bounce"></div>
+
+    <div class="w-80 h-80 bg-yellow-400 animate-spin"></div>
+
+    <div class="w-80 h-80 bg-yellow-400 animate-pulse"></div>
+
+</body>
+
+</html>
